@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 35vw;
+    min-width: 35vw;
+    background-image: url(./leaf-photo.avif);
+    justify-content: space-between;
+}
+
+.logo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    height: 12vh;
+    color: white ;
+    font-size: 7vh;
+    margin-top: 25vh;
+}
+
+#odin-logo {
+    height: 85%;
+}
+
+.image-credits {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vh;
+}
+
+
+
+.right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
